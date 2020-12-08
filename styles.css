@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+
+
+#title.container-fluid {
+  padding: 3% 7% 15%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  padding: 80px 100px;
+  position: relative;
+}
+
+.icons {
+  height: 1rem;
+  font-size: 3.75em;
+  color: #ef8172;
+  margin-bottom: 4rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Footer Section */
+
+
+.social-icons {
+  margin: 20px 18px;
+  font-size: 3.5rem;
+  color: #000000;
+}
+
+.social-icons.fa-facebook:hover{
+color: #3b5998;
+}
+.social-icons.fa-twitter:hover{
+  color:#1dcaff;
+}
+.social-icons.fa-instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+ -webkit-background-clip: text;
+         /* Also define standard property for compatibility */
+         background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.social-icons.fa-envelope:hover{
+  color:#ec0101;
+}
+/* Call to Action */
+.cta-heading {
+  font-size: 3.5rem;
+}
